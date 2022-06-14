@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Tajawal", sans-serif;
+    background-image: url("back.png");
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    font-weight: 600;
+    position: relative;
+    justify-content: center;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 6px;
+    background-color: #fd7e2a;
+    border-radius: 5px;
+    bottom: 20px;
+    transition: 0.3s;
+}
+
+.title:hover::before {
+    width: 100%;
+}
+
+.Contact {
+    font-size: 32px;
+    color: #333333;
+}
+
+p {
+    font-size: 24px;
+    color: #282a30;
+}
+
+nav {
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 80%;
+    height: 500px;
+}
+
+.avatar img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 150px 15px 0px 0px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.Contactme {
+    width: 87%;
+    height: 360px;
+    background-color: #282a30;
+    border-radius: 28px 28px 160px 28px;
+    position: absolute;
+    margin-top: 420px;
+}
+
+.ulcontact {
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 8px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.h1contact {
+    color: #ff9146;
+    padding-top: 8px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    width: 70%;
+}
+
+.link {
+    color: #000;
+    display: block;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+    width: 20%;
+}
+
+.slink span {
+    margin-left: 10px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: #ff9146;
+}
